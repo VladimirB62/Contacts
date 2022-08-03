@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="User" verbose="1" >
+    <test name="User" >
+        <classes>
+            <class name="com.telran.contacts.tests.CreateAccountTests" />
+            <class name="com.telran.contacts.tests.LoginTests" />
+        </classes>
+    </test>
+</suite>
