@@ -40,7 +40,7 @@ public class ApplicationManager {
             driver = new FirefoxDriver();
 
         }
-        driver = new ChromeDriver();
+        //driver = new ChromeDriver();
         driver.get("https://contacts-app.tobbymarshall815.vercel.app/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
