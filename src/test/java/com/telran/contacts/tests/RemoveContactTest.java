@@ -1,6 +1,6 @@
 package com.telran.contacts.tests;
 
-import com.telran.contacts.models.Contact;
+import models.Contact;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

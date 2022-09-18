@@ -11,8 +11,22 @@ repositories {
 
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
-    implementation 'org.testng:testng:7.6.0'
-    implementation 'ch.qos.logback:logback-classic:1.2.11'
+    implementation 'org.testng:testng:7.1.0'
+
+    implementation 'ch.qos.logback:logback-classic:1.4.0'
+
+    implementation 'com.github.stephenc.monte:monte-screen-recorder:0.7.7.0'
+
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    implementation 'org.apache.httpcomponents:fluent-hc:4.5.13'
+
+    implementation 'com.google.code.gson:gson:2.9.1'
+
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+
 }
 
 task testy(type:Test) {
@@ -36,6 +50,15 @@ task testSmoky(type:Test) {
         suites 'src/test/resources/testngSmoky.xml'
     }
     if (project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}
+
+task testEx(type:Test) {
+    useTestNG() {
+        suites 'src/test/resources/testngExName.xml'
+    }
+    if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
     }
 }

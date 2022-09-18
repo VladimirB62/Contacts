@@ -1,6 +1,5 @@
 package com.telran.contacts.tests;
 
-import com.telran.contacts.utils.DataProviders;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

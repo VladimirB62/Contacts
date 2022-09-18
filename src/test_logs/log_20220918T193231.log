@@ -1,0 +1,26 @@
+3873 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestwith data: []
+7150 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTest
+10784 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromCSVwith data: [Contact{name='gus', phone='1234567878'}]
+13879 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromCSV
+17098 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromCSVwith data: [Contact{name='gus', phone='1234567589'}]
+20101 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromCSV
+23136 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromCSVwith data: [Contact{name='gus', phone='1234567883'}]
+26322 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromCSV
+29927 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromCSVwith data: [Contact{name='gus', phone='1234567858'}]
+32962 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromCSV
+36160 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromDataProviderwith data: [Christo, Stoichkov, 12345678978, ghjk@kjh.com, Berlin, Forward]
+39219 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromDataProvider
+42185 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromDataProviderwith data: [Christo, Stoichkov, 12345898978, ghjk@jh.com, Berlin, Forward]
+45271 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromDataProvider
+48220 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromDataProviderwith data: [Christo, Stoichkov, 12345458978, g45k@jh.com, Berlin, Forward]
+51202 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromDataProvider
+54014 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start registrationNegativeTestWithInvalidEmailwith data: []
+55320 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method registrationNegativeTestWithInvalidEmail
+58327 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start openHomePageTestwith data: []
+58386 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method openHomePageTest
+61385 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start loginUserNegativeTestwith data: []
+82727 [Test worker] INFO  com.telran.contacts.tests.TestBase - FAILED: test method loginUserNegativeTestScreenshot: C:\Users\Admin\Telran\QualityAssuaranceProjects\Contacts\screenshots\screen1663522434288.png
+86114 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start loginUserPositiveTestwith data: []
+87265 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method loginUserPositiveTest
+90256 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start removeContactTestwith data: []
+97192 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method removeContactTest

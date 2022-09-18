@@ -1,6 +1,6 @@
 package com.telran.contacts.tests;
 
-import com.telran.contacts.models.User;
+import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;

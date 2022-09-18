@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.contacts.tests.AddContactTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-09-18T17:32:36" hostname="DESKTOP-62VSDD3" time="46.115">
+  <properties/>
+  <testcase name="addContactPositiveTest" classname="com.telran.contacts.tests.AddContactTest" time="2.328"/>
+  <testcase name="addContactPositiveTestFromCSV[0](Contact{name='gus', phone='1234567878'})" classname="com.telran.contacts.tests.AddContactTest" time="1.99"/>
+  <testcase name="addContactPositiveTestFromCSV[1](Contact{name='gus', phone='1234567589'})" classname="com.telran.contacts.tests.AddContactTest" time="1.873"/>
+  <testcase name="addContactPositiveTestFromCSV[2](Contact{name='gus', phone='1234567883'})" classname="com.telran.contacts.tests.AddContactTest" time="1.959"/>
+  <testcase name="addContactPositiveTestFromCSV[3](Contact{name='gus', phone='1234567858'})" classname="com.telran.contacts.tests.AddContactTest" time="1.902"/>
+  <testcase name="addContactPositiveTestFromDataProvider[0](Christo, Stoichkov, 12345678978, ghjk@kjh.com, Berlin, Forward)" classname="com.telran.contacts.tests.AddContactTest" time="1.93"/>
+  <testcase name="addContactPositiveTestFromDataProvider[1](Christo, Stoichkov, 12345898978, ghjk@jh.com, Berlin, Forward)" classname="com.telran.contacts.tests.AddContactTest" time="1.975"/>
+  <testcase name="addContactPositiveTestFromDataProvider[2](Christo, Stoichkov, 12345458978, g45k@jh.com, Berlin, Forward)" classname="com.telran.contacts.tests.AddContactTest" time="1.845"/>
+  <system-out><![CDATA[19:32:35.467 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestwith data: []
+19:32:38.744 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTest
+19:32:42.378 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromCSVwith data: [Contact{name='gus', phone='1234567878'}]
+19:32:45.473 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromCSV
+19:32:48.692 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromCSVwith data: [Contact{name='gus', phone='1234567589'}]
+19:32:51.695 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromCSV
+19:32:54.730 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromCSVwith data: [Contact{name='gus', phone='1234567883'}]
+19:32:57.916 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromCSV
+19:33:01.521 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromCSVwith data: [Contact{name='gus', phone='1234567858'}]
+19:33:04.556 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromCSV
+19:33:07.754 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromDataProviderwith data: [Christo, Stoichkov, 12345678978, ghjk@kjh.com, Berlin, Forward]
+19:33:10.813 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromDataProvider
+19:33:13.779 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromDataProviderwith data: [Christo, Stoichkov, 12345898978, ghjk@jh.com, Berlin, Forward]
+19:33:16.865 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromDataProvider
+19:33:19.814 [Test worker] INFO  com.telran.contacts.tests.TestBase - Test start addContactPositiveTestFromDataProviderwith data: [Christo, Stoichkov, 12345458978, g45k@jh.com, Berlin, Forward]
+19:33:22.796 [Test worker] INFO  com.telran.contacts.tests.TestBase - PASSED: test method addContactPositiveTestFromDataProvider
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 28169
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663522354.591][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+????. 18, 2022 7:32:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 31513
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663522361.596][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+????. 18, 2022 7:32:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 2019
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663522367.622][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+????. 18, 2022 7:32:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 37887
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663522373.874][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+????. 18, 2022 7:32:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 17932
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663522380.627][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+????. 18, 2022 7:33:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 47765
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663522387.131][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+????. 18, 2022 7:33:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 43724
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663522393.122][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+????. 18, 2022 7:33:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 29068
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1663522399.127][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+????. 18, 2022 7:33:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
