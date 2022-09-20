@@ -25,8 +25,6 @@ public class HttpClientTests {
     @Test
     public void loginHttpTest() throws IOException {
 
-
-
         Response response = Request.Post("https://contacts-telran.herokuapp.com/api/login")
                 .bodyString("{\n" +
                         "  \"email\": \""+ email +"\",\n" +
@@ -43,13 +41,31 @@ public class HttpClientTests {
         System.out.println(token.getAsString());
     }
 //eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Imd1c2hpZGRpbmtAZ21haWwuY29tIn0.RvRPouJtVT3ZbpYwtU4a57NzbUcQecbrEN5XqeusiJk
+    @Test
+    public void loginHttpClientPositivTest() throws IOException {
+       Gson gson = new Gson();
+
+       AuthRequestDto requestDto = AuthRequestDto.builder()
+               .email(email)
+               .password(password)
+               .build();
+
+       Response response = Request.Post("https://contacts-telran.herokuapp.com/api/login")
+               .bodyString(gson.toJson(requestDto),ContentType.APPLICATION_JSON)
+               .execute();
+
+       String responseJson = response.returnContent().asString();
+        AuthResponseDto responseDto = gson.fromJson(responseJson, AuthResponseDto.class);
+        System.out.println(responseDto);
+    }
 
     @Test
-    public void loginHttpTest2WithWrongPassword() throws IOException {
+    public void loginHttpClientNegativTestWithWrongPassword() throws IOException {
 
         AuthRequestDto requestDto = AuthRequestDto.builder()
                 .email("gushiddink@gmail.com")
-                .password("12345678Aa~").build();
+                .password("12345678Aa~")
+                .build();
 
         Gson gson = new Gson();
 
